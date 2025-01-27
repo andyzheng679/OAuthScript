@@ -20,7 +20,6 @@ class CallBackHandler(http.server.BaseHTTPRequestHandler):
         else:
             print("State does not match")
             self.send_response(400)
-            self.send_header()
 
         
 
